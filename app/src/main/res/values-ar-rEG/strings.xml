@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Covid-19EG</string>
+    <string name="confirmed">الاصابات</string>
+    <string name="deaths">"الوفيات "</string>
+    <string name="egypt">مصر</string>
+    <string name="hello_blank_fragment">فرجمنت</string>
+    <string name="recovered">المتعافون</string>
+    <string name="search">بحث</string>
+    <string name="title_contact">التواصل معي</string>
+    <string name="title_home">الرئيسيه</string>
+    <string name="title_world">العالم</string>
+    <string name="egypt_fight">اخر تحديث  الساعه : 10</string>
+    <string name="_15335">15335</string>
+    <string name="_105">105</string>
+    <string name="hot_line">الخط الساخن</string>
+    <string name="note">ملاحظات</string>
+    <string name="updating_time">يتم تحديث البيانات من قبل منظمة الصحة العالمية (WHO). يتم تحديث البيانات في مصر حوالي الساعة 10 مساءً</string>
+    <string name="active">نشط</string>
+</resources>
