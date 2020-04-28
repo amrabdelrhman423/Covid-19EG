@@ -1,12 +1,14 @@
 package com.example.covid_19eg.UI.main.Fragments;
 
 
+
 import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
+
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.DividerItemDecoration;
@@ -21,7 +23,8 @@ import android.widget.SearchView;
 import com.example.covid_19eg.CoronaDataAdapter;
 import com.example.covid_19eg.R;
 
-import com.example.covid_19eg.model.allProperties;
+
+import com.example.covid_19eg.models.allProperties;
 
 
 import org.jetbrains.annotations.NotNull;
@@ -43,11 +46,14 @@ import okhttp3.Response;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class WorldFragment extends Fragment {
+public class WorldFragment extends Fragment  {
 
     private String strJson;
     //Define Arraylist of user defined objects
     private List<allProperties> data = new ArrayList<>();
+
+
+
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
@@ -62,7 +68,7 @@ public class WorldFragment extends Fragment {
 
         // If there is a network connection, fetch data
         if (networkInfo != null && networkInfo.isConnected()) {
-            String worldData = "https://corona.lmao.ninja/countries?sort=cases";
+            String worldData = "https://corona.lmao.ninja/v2/countries?sort=cases";
 
             //HTTP request
             OkHttpClient client = new OkHttpClient();
@@ -87,6 +93,7 @@ public class WorldFragment extends Fragment {
                                 buildRecyclerView(root);
                             }
                         });
+
                     }
                 }
             });
@@ -151,14 +158,13 @@ public class WorldFragment extends Fragment {
         search(searchView, adapter);
     }
 
-
     /**
      * @param searchView the view where the user type
      * @param adapter the adapter which contains the list to be searched
      */
-    private void search(SearchView searchView, final CoronaDataAdapter adapter){
+    public static void search(android.widget.SearchView searchView, final CoronaDataAdapter adapter){
 
-        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+        searchView.setOnQueryTextListener(new android.widget.SearchView.OnQueryTextListener() {
             @Override
             public boolean onQueryTextSubmit(String s) {
                 return false;
@@ -171,4 +177,6 @@ public class WorldFragment extends Fragment {
             }
         });
     }
+
+
 }

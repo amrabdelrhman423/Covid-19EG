@@ -10,11 +10,24 @@
     <string name="title_contact">التواصل معي</string>
     <string name="title_home">الرئيسيه</string>
     <string name="title_world">العالم</string>
-    <string name="egypt_fight">اخر تحديث  الساعه : 10</string>
+    <string name="egypt_fight">اخر تحديث الساعه</string>
     <string name="_15335">15335</string>
     <string name="_105">105</string>
     <string name="hot_line">الخط الساخن</string>
     <string name="note">ملاحظات</string>
     <string name="updating_time">يتم تحديث البيانات من قبل منظمة الصحة العالمية (WHO). يتم تحديث البيانات في مصر حوالي الساعة 10 مساءً</string>
     <string name="active">نشط</string>
+    <string name="footer">معلومات اكثر</string>
+    <string name="refresh">تنشيط</string>
+    <string name="total_cases">مجموع الحالات</string>
+    <string name="total_deaths">مجموع الوفيات</string>
+    <string name="total_recovered">مجموع الشفاء</string>
+    <string name="deaths_today">وفيات اليوم</string>
+    <string name="active_cases">الحالات النشطة</string>
+    <string name="cases_today">حالات اليوم</string>
+    <string name="critical_cases">الحالات الحرجة</string>
+    <string name="deaths_per_million">"الوفاء لكل مليون "</string>
+    <string name="cases_per_million">الاصابة لكل مليون</string>
+    <string name="country_name">اسم الدولة</string>
+    <string name="covid_19">كوفيد-19</string>
 </resources>

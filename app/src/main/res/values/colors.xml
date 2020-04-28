@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#C61D1D</color>
+    <color name="colorPrimary">#D64C4C</color>
     <color name="colorPrimaryDark">#797D7F</color>
     <color name="colorAccent">#D81B60</color>
+
+    <color name="notification_color">#0288d1</color>
+    <color name="textColorPrimary">#212121</color>
+    <color name="textColorSecondary">#757575</color>
+    <color name="navfun">#FF6666</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorGray">#E7ECF2</color>
 
 </resources>

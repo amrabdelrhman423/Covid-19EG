@@ -1,12 +1,10 @@
-package com.example.covid_19eg.model;
+package com.example.covid_19eg.models;
 
 public class properties {
 
 
     String country,imageUrl;
     int cases,todayCases,deaths,todayDeaths,recovered,active;
-
-
 
     public properties(String country, String imageUrl, int cases, int todayCases, int deaths, int todayDeaths, int recovered, int active) {
         this.country = country;

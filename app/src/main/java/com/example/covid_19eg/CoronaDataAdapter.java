@@ -11,7 +11,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.covid_19eg.model.allProperties;
+import com.example.covid_19eg.models.allProperties;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
@@ -27,7 +27,7 @@ public class CoronaDataAdapter extends RecyclerView.Adapter<CoronaDataAdapter.Cu
         dataCopy = new ArrayList<>(data);
     }
 
-    static class CustomViewHolder extends RecyclerView.ViewHolder {
+    class CustomViewHolder extends RecyclerView.ViewHolder {
         //Views inside the list_item xml file
         private ImageView image;
         private TextView countryName;
@@ -43,6 +43,7 @@ public class CoronaDataAdapter extends RecyclerView.Adapter<CoronaDataAdapter.Cu
             totalCases = itemView.findViewById(R.id.infected);
             totalDeaths = itemView.findViewById(R.id.deaths);
             totalRecovered = itemView.findViewById(R.id.recovered);
+
         }
     }
 
@@ -64,6 +65,9 @@ public class CoronaDataAdapter extends RecyclerView.Adapter<CoronaDataAdapter.Cu
         holder.totalCases.setText(currentElement.getCases());
         holder.totalDeaths.setText(currentElement.getDeaths());
         holder.totalRecovered.setText(currentElement.getRecovered());
+
+
+
     }
 
     @Override

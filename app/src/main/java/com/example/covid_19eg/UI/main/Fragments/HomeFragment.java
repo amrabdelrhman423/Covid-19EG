@@ -8,14 +8,12 @@ import android.os.Build;
 import android.os.Bundle;
 
 import androidx.annotation.RequiresApi;
-import androidx.constraintlayout.widget.ConstraintLayout;
+
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
 import android.os.Handler;
-import android.text.SpannableString;
-import android.text.style.UnderlineSpan;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -23,21 +21,19 @@ import android.widget.BaseAdapter;
 import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.RelativeLayout;
+
 import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.Toolbar;
 
 import com.example.covid_19eg.R;
-import com.example.covid_19eg.UI.main.MainActivity;
+
 import com.example.covid_19eg.UI.main.PropertiesViewModel;
-import com.example.covid_19eg.model.properties;
+import com.example.covid_19eg.models.properties;
 
 import java.util.Objects;
 
-/**
- * A simple {@link Fragment} subclass.
- */
+
 public class HomeFragment extends Fragment {
 
     GridView gridView;
@@ -45,8 +41,7 @@ public class HomeFragment extends Fragment {
     String[] typesName;
     int[] typesImage;
     String[] typenum;
-    Toolbar toolbar;
-    int[] typColor ;
+
 
 
 
@@ -72,9 +67,10 @@ public class HomeFragment extends Fragment {
 
         if (networkInfo != null && networkInfo.isConnected()){
 
+
             gridView = view.findViewById(R.id.gridview);
-            typesName= new String[]{"Confirmed","Active", "Recovered", "Deaths"};
-            typesImage= new int[]{ R.drawable.corona,R.drawable.patient, R.drawable.heart, R.drawable.death};
+            typesName= new String[]{"Confirmed","Active", "Recovered", "Deaths","Todaycases","Todaydeaths"};
+            typesImage= new int[]{ R.drawable.corona,R.drawable.patient, R.drawable.heart, R.drawable.coffin,R.drawable.fever,R.drawable.death};
             propertiesViewModel = ViewModelProviders.of(this).get(PropertiesViewModel.class);
             propertiesViewModel.getproperties();
             propertiesViewModel.propertiesMutableLiveData.observe(getViewLifecycleOwner() , new Observer<properties>() {
@@ -85,7 +81,9 @@ public class HomeFragment extends Fragment {
                             Integer.toString(properties.getCases()),
                             Integer.toString(properties.getActive()),
                             Integer.toString(properties.getRecovered()),
-                            Integer.toString(properties.getDeaths())
+                            Integer.toString(properties.getDeaths()),
+                            Integer.toString(properties.getTodayCases()),
+                            Integer.toString(properties.getTodayDeaths())
                     };
 
                     CustomAdapter customAdapter = new CustomAdapter();

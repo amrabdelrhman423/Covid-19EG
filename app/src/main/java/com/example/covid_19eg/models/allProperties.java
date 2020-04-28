@@ -1,4 +1,4 @@
-package com.example.covid_19eg.model;
+package com.example.covid_19eg.models;
 
 public class allProperties {
 

@@ -19,6 +19,33 @@
     <string name="hot_line">Hot Line</string>
     <string name="_15335">15335</string>
     <string name="_105">105</string>
-    <string name="egypt_fight"> update: 10PM </string>
+    <string name="egypt_fight">" update"</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title">Charts for COVID-19</string>
+    <string name="detailTitle">Details</string>
+    <string name="details">تم تسجيل الحالة الأولى لفيروس كورونا 19 الجديد في 31 ديسمبر في ووهان  الصين . منذ ذلك الحين ، تم تسجيل أكثر من 500000 حالة مؤكدة في جميع أنحاء العالم ، وسيعاني معظم المصابين بفيروس COVID-19 من أمراض تنفسية خفيفة إلى متوسطة ويتعافون دون الحاجة إلى علاج خاص. من المرجح أن يصاب كبار السن ، ومن يعانون من مشاكل طبية كامنة مثل أمراض القلب والأوعية الدموية والسكري وأمراض الجهاز التنفسي المزمنة والسرطان هم من سيحتاجون الي رعاية خاصة </string>
+    <string name="footer">Fotter</string>
+
+
+    <string name="total_cases">Total Cases</string>
+    <string name="covid_19">COVID-19</string>
+    <string name="total_recovered">Total Recovered</string>
+    <string name="total_deaths">Total Deaths</string>
+    <string name="test_text">0</string>
+    <string name="country_name">Country Name</string>
+    <string name="cases_today">Cases Today</string>
+    <string name="deaths_today">Deaths Today</string>
+    <string name="active_cases">Active Cases</string>
+    <string name="critical_cases">Critical Cases</string>
+    <string name="cases_per_million">Cases Per Million</string>
+    <string name="deaths_per_million">Deaths Per Million</string>
+    <string name="refresh">Refresh</string>
+    <string name="More_info">More info</string>
+    <string name="PLEASE_NOTE">STAY HOME</string>
+    <string name="Search_for_countries">Search for countries</string>
+    <string name="Sort_By">Sort By</string>
+    <string name="what_is_coronavirus">الفيروسات التاجية هي مجموعة من الفيروسات التي تسبب الأمراض في الثدييات والطيور. في البشر ، تسبب الفيروسات التهابات الجهاز التنفسي - بما في ذلك نزلات البرد - التي عادة ما تكون خفيفة. يمكن أن تكون الأشكال النادرة مثل السارس ، ومتلازمة الشرق الأوسط التنفسية ، والفيروس التاجي الجديد الذي يسبب تفشي فيروس ووهان التاجي في الفترة من 2019 إلى 20 مميتة ، ولا توجد لقاحات أو أدوية مضادة للفيروسات معتمدة للوقاية أو العلاج حتي الان .</string>
+    <string name="what_is_in_china"> Covid-19 هو فيروس تم تحديده على أنه سبب تفشي أمراض الجهاز التنفسي التي تم اكتشافها لأول مرة في ووهان ، الصين. في وقت مبكر ، ورد أن العديد من المرضى في تفشي المرض في ووهان ، الصين ، كان لديهم بعض الارتباط بسوق كبير للمأكولات البحرية والحيوانية ، مما يوحي بانتشار الحيوانات من شخص لآخر. ومع ذلك ، تفيد التقارير أن عددًا متزايدًا من المرضى لم يتعرضوا لأسواق الحيوانات ، مما يشير إلى حدوث انتشار من شخص لآخر. في هذا الوقت ، من غير الواضح مدى سهولة أو استدامة انتشار هذا الفيروس بين الأشخاص.</string>
+    <string name="how_to_prevent">اغسل يديك كثيرًا بالماء والصابون لمدة 20 ثانية على الأقل ، خاصة بعد الذهاب إلى الحمام ؛ قبل الأكل؛ وبعد نفخ أنفك أو السعال أو العطس عدم النزول من المنزل الا للضرورة تجنب من يظهر عليهم الاعراض محاولة عدم لمس الوجه بقدر الامكان</string>
 
 </resources>

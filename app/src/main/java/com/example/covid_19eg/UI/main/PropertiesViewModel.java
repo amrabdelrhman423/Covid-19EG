@@ -3,7 +3,7 @@ package com.example.covid_19eg.UI.main;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-import com.example.covid_19eg.model.properties;
+import com.example.covid_19eg.models.properties;
 import com.example.covid_19eg.Network.propertiesClient;
 
 import retrofit2.Call;
