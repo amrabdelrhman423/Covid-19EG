@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="ld_activityScreenTitles">
+        <item>Home</item>
+        <item>Charts </item>
+        <item>Details &amp; advices</item>
+        <item>MAPS</item>
+
+        <item />
+        <item>Close</item>
+    </string-array>
+
+    <array name="ld_activityScreenIcons">
+        <item>@drawable/ic_search_black_24dp</item>
+        <item>@drawable/ic_show_chart_black_24dp</item>
+        <item>@drawable/ic_details_black_24dp</item>
+        <item>@drawable/ic_my_location_black_24dp</item>
+        <item>0</item>
+        <item>@drawable/ic_exit_to_app_black_24dp</item>
+    </array>
+
+</resources>
